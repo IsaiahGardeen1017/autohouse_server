@@ -2,16 +2,17 @@
 
 
 
-PACKAGE MANAGEMENT
+## PACKAGE MANAGEMENT
+>execute from /python_server
 
-//Create Environment
-python -m venv env
+Create Environment\
+`python -m venv env`
 
-//Activate Environment
-source env/bin/activate
+Activate Environment\
+`source env/bin/activate`
 
-//Save packages
-pip freeze > requirements.txt
+Save packages\
+`pip freeze > requirements.txt`
 
-// Install needed packages
-pip install -r requirements.txt
+Install needed packages\
+`pip install -r requirements.txt`
