@@ -1,0 +1,19 @@
+{
+  "name": "websocketconnector",
+  "version": "1.0.0",
+  "description": "Test Websocket connections",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "express": "^4.21.0"
+  }
+}
